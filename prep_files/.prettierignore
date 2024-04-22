@@ -1,0 +1,6 @@
+# Ignore artifacts:
+dist
+node_modules
+.next
+/k8s
+/.github

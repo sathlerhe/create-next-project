@@ -1,0 +1,6 @@
+{
+  "*.tsx": [
+    "npx eslint './src' --fix",
+    "npx prettier --write ./src"
+  ]
+}
