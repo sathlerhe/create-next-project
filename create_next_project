@@ -3,7 +3,7 @@
 app=$1
 
 if [ -z "$app" ]; then
-echo "create [app_name] [github_url]"
+echo "script [app_name]"
 exit 1
 fi
 
