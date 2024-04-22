@@ -3,8 +3,8 @@
 app=$1
 
 if [ -z "$app" ]; then
-echo "script [app_name]"
-exit 1
+    echo "script [app_name]"
+    exit 1
 fi
 
 npx create-next-app@latest $app --ts --tailwind --eslint --app --import-alias "@/*" --src-dir
