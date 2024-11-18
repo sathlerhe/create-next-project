@@ -7,7 +7,7 @@ if [ -z "$app" ]; then
     exit 1
 fi
 
-npx create-next-app@latest $app --ts --tailwind --eslint --app --import-alias "@/*" --src-dir
+npx create-next-app@14.2.4 $app --ts --tailwind --eslint --app --import-alias "@/*" --src-dir
 dir=$(dirname $0)
 cp -r -f "$dir"/prep_files/.* ./"$app"
 cd ./"$app"
